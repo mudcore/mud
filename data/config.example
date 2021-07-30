@@ -1,0 +1,15 @@
+##################################
+#           配置文件示列           #
+#  使用 config 或 env 函数读取配置  #
+##################################
+
+# MySQL数据库配置
+DB_HOST : 127.0.0.1
+DB_DATABASE : mudcore
+DB_USERNAME : root
+DB_PASSWORD : root
+
+# 智能机器人密钥
+IQA_CODE : 5ce8d2dcf3e84749b9b46eaae4740070
+
+# I2D
