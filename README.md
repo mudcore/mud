@@ -1,13 +1,23 @@
+<!--
+ * @Author: 雪风@mud.ren
+ * @Date: 2022-03-25 13:28:42
+ * @LastEditTime: 2022-03-25 13:40:35
+ * @LastEditors: 雪风
+ * @Description: mudcore框架template
+ *  https://bbs.mud.ren
+-->
 ## MUDCORE游戏开发示例
 
 如果你是使用mudcore框架全新开发MUD游戏，可参考此示例模版。框架使用说明文档：https://bbs.mud.ren/threads/66
 
 ### 项目安装
 
+点击项目上的[Use this template](https://github.com/mudcore/demo/generate)生成项目到自己的仓库，然后使用以下指令更新代码：
+
 ```bash
-# 下载示例项目
-git clone --recurse-submodules https://github.com/mudcore/demo.git
-# 更新mudcore框架
+# 下载代码
+git clone --recurse-submodules 你的项目地址
+# 更新框架
 git submodule update --remote
 ```
 
