@@ -30,7 +30,12 @@ git submodule update --remote
 
 ### 启动游戏
 
-    driver config.ini
+    driver config.cfg
+
+> 项目提供了二个配置文件：
+
+* config.cfg - 精简版运行时配置文件
+* config.ini - 完整版运行时配置文件
 
 ### 目录说明
 
@@ -41,7 +46,8 @@ include|游戏代码头文件目录
 log|游戏日志目录
 system|游戏系统文件目录
 mudcore|MUDCORE框架目录，请勿修改其中代码
-www|websocket网站代码，包括2个版本
+www|websocket HTTP网页代码，包括2个版本
+.vscode|Visual Studio Code 配置目录，方便开发调试
 
 其中 mudcore 目录为引入的框架子模块，不要改动其中的任何代码，其它游戏目录为开发者自己定义的，可根据需要调整。
 
