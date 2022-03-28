@@ -1,7 +1,7 @@
 <!--
  * @Author: 雪风@mud.ren
  * @Date: 2022-03-25 13:28:42
- * @LastEditTime: 2022-03-25 13:40:35
+ * @LastEditTime: 2022-03-28 11:09:16
  * @LastEditors: 雪风
  * @Description: mudcore框架template
  *  https://bbs.mud.ren
@@ -49,7 +49,7 @@ mudcore|MUDCORE框架目录，请勿修改其中代码
 www|websocket HTTP网页代码，包括2个版本
 .vscode|Visual Studio Code 配置目录，方便开发调试
 
-其中 mudcore 目录为引入的框架子模块，不要改动其中的任何代码，其它游戏目录为开发者自己定义的，可根据需要调整。
+其中 mudcore 目录为引入的框架子模块，不要改动其中的任何代码，使用帮助见`mudcore/README.md`，其它游戏目录为开发者自己定义的，可根据需要自由调整。
 
 ### 关于环境配置
 
