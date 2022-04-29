@@ -1,7 +1,7 @@
 <!--
  * @Author: 雪风@mud.ren
  * @Date: 2022-03-25 13:28:42
- * @LastEditTime: 2022-03-28 11:09:16
+ * @LastEditTime: 2022-04-29 11:46:35
  * @LastEditors: 雪风
  * @Description: mudcore框架template
  *  https://bbs.mud.ren
@@ -50,6 +50,20 @@ www|websocket HTTP网页代码，包括2个版本
 .vscode|Visual Studio Code 配置目录，方便开发调试
 
 其中 mudcore 目录为引入的框架子模块，不要改动其中的任何代码，使用帮助见`mudcore/README.md`，其它游戏目录为开发者自己定义的，可根据需要自由调整。
+
+项目其它目录结构建议配置：
+
+目录|说明
+-|-
+config|游戏各种特色设置配置文件目录，注意不得保存敏感数据
+cmds|游戏动作指令目录
+daemons|游戏守护进程目录，推荐放在system目录下
+doc|游戏文档文件目录
+events|游戏事件模块目录，可放在inherit目录下
+inherit|必须继承使用的功能模块文件目录
+std|标准对象目录，具体对象继承使用
+verbs|游戏谓词指令目录
+world|游戏世界环境目录
 
 ### 关于环境配置
 
