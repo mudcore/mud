@@ -1,7 +1,7 @@
 <!--
  * @Author: 雪风@mud.ren
  * @Date: 2022-03-25 13:28:42
- * @LastEditTime: 2022-04-29 11:46:35
+ * @LastEditTime: 2022-06-14 16:46:35
  * @LastEditors: 雪风
  * @Description: mudcore框架template
  *  https://bbs.mud.ren
@@ -19,9 +19,14 @@
 git clone --recurse-submodules <你的项目地址>
 ```
 
-如果你已经克隆了项目但忘记了 `--recurse-submodules`，那么可以运行 `git submodule update --init` 将 `git submodule init` 和 `git submodule update` 合并成一步。如果还要初始化、抓取并检出任何嵌套的子模块， 请使用简明的 `git submodule update --init --recursive`。
+如果你已经克隆了项目但忘记了 `--recurse-submodules`，那么可以在项目根目录中运行以下指令更新子模块：
 
-如果需要保持框架为最新版，请进入项目目录后运行以下指令：
+```bash
+# 更新子模块
+git submodule update --init --recursive
+```
+
+如果需要保持框架为最新版，请在项目根目录中运行以下指令：
 
 ```bash
 # 更新框架
