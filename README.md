@@ -37,10 +37,11 @@ git submodule update --remote
 
     driver config.cfg
 
-> 项目提供了二个配置文件：
+> 项目配置文件：
 
 * config.cfg - 精简版运行时配置文件
-* config.ini - 完整版运行时配置文件
+
+如需完整版运行时配置文件请参考[config.example.ini](mudcore/config.example.ini)。
 
 ### 目录说明
 
