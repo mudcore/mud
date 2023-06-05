@@ -35,6 +35,8 @@ git submodule update --remote
 
 ### 启动游戏
 
+Ubuntu系统下直接运行以下指令或使用`run.sh`脚本启动游戏
+
     driver config.cfg
 
 > 项目配置文件：
@@ -42,6 +44,8 @@ git submodule update --remote
 * config.cfg - 精简版运行时配置文件
 
 如需完整版运行时配置文件请参考mudcore框架目录中的`config.example.ini`，另外`config.mini.ini`也值得参考。
+
+如果你还没有编译驱动，可以先运行`build.sh`自动下载编译。
 
 ### 目录说明
 
@@ -73,4 +77,4 @@ world|游戏世界环境目录
 
 ### 关于环境配置
 
-因为推荐使用git管理代码，有一些核心配置（如数据库密码）为了安全不建议直接写在代码中，MUDCORE 推荐的做法是在`/data/`目录中新建一个`.env`文件，重要配置在这里定义，在游戏中使用`config`或`env`函数读取或写入。此文件不会提交到仓库中，具体可参考`.env.example`文件。
+因为推荐使用git管理代码，有一些核心配置（如数据库密码）为了安全不建议直接写在代码中，MUDCORE 推荐的做法是在`/data/`目录中新建一个`.env`文件，重要配置在这里定义，在游戏中使用`env()`函数读取或写入。此文件不会提交到仓库中，具体可参考`.env.example`文件。
